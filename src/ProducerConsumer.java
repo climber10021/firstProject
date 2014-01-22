@@ -11,8 +11,8 @@ public class ProducerConsumer {
 		Thread t_p1 = new Thread(prod);
 		Thread t_p2 = new Thread(prod);
 		Thread t_p3 = new Thread(prod);
-		Thread t_p4 = new Thread(prod);
-		Thread t_p5 = new Thread(prod);
+//		Thread t_p4 = new Thread(prod);
+//		Thread t_p5 = new Thread(prod);
 		Thread t_c1 = new Thread(cons);
 		Thread t_c2 = new Thread(cons);
 		Thread t_c3 = new Thread(cons);
@@ -22,8 +22,8 @@ public class ProducerConsumer {
 		t_p1.start();
 		t_p2.start();
 		t_p3.start();
-		t_p4.start();
-		t_p5.start();
+//		t_p4.start();
+//		t_p5.start();
 		
 		try {
 			Thread.sleep(10000);
